@@ -20,8 +20,8 @@ export const CreateTransport = () => {
 
   const addCar = async () => {
     try {
-      console.log(selectedUser.id, mark, year, number);
-      await createTransport(selectedUser.id, mark, year, number);
+      const data = await createTransport(selectedUser.id, mark, year, number);
+      alert(data);
       setSelectedUser(null);
       setMark('');
       setYear('');

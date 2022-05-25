@@ -22,6 +22,9 @@ export const OrderItem = ({ post }) => {
             <strong>Услуга</strong> : {post.service}
           </div>
           <div>
+            <strong>Цена</strong> : {post.price} $
+          </div>
+          <div>
             <strong>ФИО работника</strong> : {post.employee}
           </div>
           <div>

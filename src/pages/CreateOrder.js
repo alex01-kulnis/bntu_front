@@ -69,6 +69,7 @@ export const CreateOrder = () => {
         selectCard,
         selectedUser.name,
         selectedService.name_service,
+        selectedService.price,
         selectedEmployee.FIO,
         selectedEmployeeTransport.goverment_number,
         selectedMark.mark,

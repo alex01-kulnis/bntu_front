@@ -21,7 +21,8 @@ export const CreateUser = () => {
 
   const click = async () => {
     try {
-      await createUser(name, telephone, mark, year, number);
+      const data = await createUser(name, telephone, mark, year, number);
+      alert(data);
       setName('');
       setTelephone('');
       setMark('');
